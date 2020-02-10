@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'learning-angular';
+  persona = {
+  	nombre: 'Antonio',
+  	edad: 21
+  }
+
 }
